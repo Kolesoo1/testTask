@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.inikitin.testtask"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.inikitin.testtask"
@@ -36,7 +36,7 @@ android {
 }
 
 dependencies {
-
+    implementation(libs.androidx.core.splashscreen)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
